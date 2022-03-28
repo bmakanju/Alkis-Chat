@@ -1,0 +1,2259 @@
+body{
+        background-color: teal;
+}
+ 
+@media (min-width: 300px) {
+
+        .sidebar-tab-pc{
+                display: none;
+        }
+
+        .alkis-bot{
+                top: 25px;
+                width: 95%;
+                height: 89%;
+                left: 0.5em;
+                display: block;
+                position: absolute;
+                border-radius: 25px;
+                background: rgb(23, 36, 88);
+                box-shadow: 0px 5px 40px 20px black;
+        }
+        /*********Scroll Bar Design***********/
+        .text-result::-webkit-scrollbar{
+                width: 15px;
+                cursor: pointer;
+                transition: .5s ease;
+        }
+        .text-result::-webkit-scrollbar-track{
+                transition: .5s ease;
+                border-radius: 20px;
+                box-shadow: inset 3px 6px 8px rgb(29, 80, 80);
+        }
+        .text-result::-webkit-scrollbar-thumb{
+                border-radius: 20px;
+                scroll-behavior: smooth;
+                outline: 3px solid rgb(245, 185, 150);
+                background-color: rgb(29, 80, 80);
+                transition: .5s ease;
+        }
+        /***********Input Field Div Container***********/
+        .input-group{
+                bottom: 55px;
+                position: fixed;
+        }
+        /*********Input Field *************/
+        .said{
+                outline: none;
+                width: 17.5em;
+                transition: .5s;
+                border-radius: 15px;
+        }
+        
+        .sai:focus{
+                outline: hotpink;
+        }
+        
+        /****************Chat Bot Image on the Chat Log****************/
+        .alkis-bot-img{
+                top: 5px;
+                left: 80px;
+                position: absolute;
+                margin-bottom: 100px;
+        }
+        .alkis-bot-img>img{
+                width: 200px;
+                height: 200px;
+                border-radius: 105px;
+        }
+        
+        /*************Chat Result or Log*****************/
+        .result{
+                color: goldenrod;
+        }
+        
+        .text-result{
+                width: 97%;
+                left: 20px;
+                height: 56%;
+                bottom: 50px;
+                user-select: none;
+                position: absolute;
+                overflow-y: scroll;
+                overflow-x: hidden;
+        }
+        
+        /****************Alkis Chat Bot Bubble****************/
+        .alkis-bot-chat{
+                right: 0;
+                width: 96%;
+                height: 30%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: teal;
+        }
+        
+        .alkis-bot-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-bot-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-bot-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-bot-chat>.alkis-bot-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+        
+        /****************Alkis Chat User Bubble****************/
+        .alkis-user-chat{
+                right: 0;
+                width: 96%;
+                height: 25%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: #fff;
+        }
+        
+        .alkis-user-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-user-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-user-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-user-chat>.alkis-user-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+}
+
+@media (min-width: 310px) {
+
+        .sidebar-tab-pc{
+                display: none;
+        }
+
+        .alkis-bot{
+                top: 25px;
+                width: 95%;
+                height: 89%;
+                left: 0.1em;
+                display: block;
+                position: absolute;
+                border-radius: 25px;
+                background: rgb(23, 36, 88);
+                box-shadow: 0px 5px 40px 20px black;
+        }
+        /*********Scroll Bar Design***********/
+        .text-result::-webkit-scrollbar{
+                width: 15px;
+                cursor: pointer;
+                transition: .5s ease;
+        }
+        .text-result::-webkit-scrollbar-track{
+                transition: .5s ease;
+                border-radius: 20px;
+                box-shadow: inset 3px 6px 8px rgb(29, 80, 80);
+        }
+        .text-result::-webkit-scrollbar-thumb{
+                border-radius: 20px;
+                scroll-behavior: smooth;
+                outline: 3px solid rgb(245, 185, 150);
+                background-color: rgb(29, 80, 80);
+                transition: .5s ease;
+        }
+        /***********Input Field Div Container***********/
+        .input-group{
+                bottom: 75px;
+                position: fixed;
+        }
+        /*********Input Field *************/
+        .said{
+                outline: none;
+                width: 15.5em;
+                transition: .5s;
+                border-radius: 15px;
+        }
+        
+        .sai:focus{
+                outline: hotpink;
+        }
+        
+        /****************Chat Bot Image on the Chat Log****************/
+        .alkis-bot-img{
+                top: 5px;
+                left: 55px;
+                position: absolute;
+                margin-bottom: 100px;
+        }
+        .alkis-bot-img>img{
+                width: 200px;
+                height: 200px;
+                border-radius: 105px;
+        }
+        
+        /*************Chat Result or Log*****************/
+        .result{
+                color: goldenrod;
+        }
+        
+        .text-result{
+                width: 97%;
+                left: 20px;
+                height: 56%;
+                bottom: 50px;
+                user-select: none;
+                position: absolute;
+                overflow-y: scroll;
+                overflow-x: hidden;
+        }
+        
+        /****************Alkis Chat Bot Bubble****************/
+        .alkis-bot-chat{
+                right: 0;
+                width: 96%;
+                height: 30%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: teal;
+        }
+        
+        .alkis-bot-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-bot-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-bot-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-bot-chat>.alkis-bot-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+        
+        /****************Alkis Chat User Bubble****************/
+        .alkis-user-chat{
+                right: 0;
+                width: 96%;
+                height: 25%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: #fff;
+        }
+        
+        .alkis-user-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-user-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-user-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-user-chat>.alkis-user-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+}
+
+@media (min-width: 320px) {
+
+        .sidebar-tab-pc{
+                display: none;
+        }
+
+        .alkis-bot{
+                top: 25px;
+                width: 95%;
+                height: 89%;
+                left: 0.1em;
+                display: block;
+                position: absolute;
+                border-radius: 25px;
+                background: rgb(23, 36, 88);
+                box-shadow: 0px 5px 40px 20px black;
+        }
+        /*********Scroll Bar Design***********/
+        .text-result::-webkit-scrollbar{
+                width: 15px;
+                cursor: pointer;
+                transition: .5s ease;
+        }
+        .text-result::-webkit-scrollbar-track{
+                transition: .5s ease;
+                border-radius: 20px;
+                box-shadow: inset 3px 6px 8px rgb(29, 80, 80);
+        }
+        .text-result::-webkit-scrollbar-thumb{
+                border-radius: 20px;
+                scroll-behavior: smooth;
+                outline: 3px solid rgb(245, 185, 150);
+                background-color: rgb(29, 80, 80);
+                transition: .5s ease;
+        }
+        /***********Input Field Div Container***********/
+        .input-group{
+                bottom: 50px;
+                position: fixed;
+        }
+        /*********Input Field *************/
+        .said{
+                outline: none;
+                width: 15.9em;
+                transition: .5s;
+                border-radius: 15px;
+        }
+        
+        .sai:focus{
+                outline: hotpink;
+        }
+        
+        /****************Chat Bot Image on the Chat Log****************/
+        .alkis-bot-img{
+                top: 5px;
+                left: 78px;
+                position: absolute;
+                margin-bottom: 100px;
+        }
+        .alkis-bot-img>img{
+                width: 150px;
+                height: 150px;
+                border-radius: 105px;
+        }
+        
+        /*************Chat Result or Log*****************/
+        .result{
+                color: goldenrod;
+        }
+        
+        .text-result{
+                width: 97%;
+                left: 20px;
+                height: 56%;
+                bottom: 50px;
+                user-select: none;
+                position: absolute;
+                overflow-y: scroll;
+                overflow-x: hidden;
+        }
+        
+        /****************Alkis Chat Bot Bubble****************/
+        .alkis-bot-chat{
+                right: 0;
+                width: 96%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                word-wrap: break-word;
+                vertical-align: baseline;
+                background-color: teal;
+        }
+        
+        .alkis-bot-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-bot-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-bot-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-bot-chat>.alkis-bot-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+        
+        /****************Alkis Chat User Bubble****************/
+        .alkis-user-chat{
+                right: 0;
+                width: 96%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                word-wrap: break-word;
+                vertical-align: baseline;
+                background-color: #fff;
+        }
+        
+        .alkis-user-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-user-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-user-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-user-chat>.alkis-user-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+}
+
+
+@media (min-width: 330px) {
+
+        .sidebar-tab-pc{
+                display: none;
+        }
+
+        .alkis-bot{
+                top: 25px;
+                width: 95%;
+                height: 89%;
+                left: 0.35em;
+                display: block;
+                position: absolute;
+                border-radius: 25px;
+                background: rgb(23, 36, 88);
+                box-shadow: 0px 5px 40px 20px black;
+        }
+        /*********Scroll Bar Design***********/
+        .text-result::-webkit-scrollbar{
+                width: 15px;
+                cursor: e-resize;
+                transition: .5s ease;
+        }
+        .text-result::-webkit-scrollbar-track{
+                transition: .5s ease;
+                border-radius: 20px;
+                box-shadow: inset 3px 6px 8px rgb(29, 80, 80);
+        }
+        .text-result::-webkit-scrollbar-thumb{
+                border-radius: 20px;
+                scroll-behavior: smooth;
+                outline: 3px solid rgb(245, 185, 150);
+                background-color: rgb(29, 80, 80);
+                transition: .5s ease;
+        }
+        /***********Input Field Div Container***********/
+        .input-group{
+                bottom: 75px;
+                position: fixed;
+        }
+        /*********Input Field *************/
+        .said{
+                outline: none;
+                width: 16.5em;
+                transition: .5s;
+                border-radius: 15px;
+        }
+        
+        .sai:focus{
+                outline: hotpink;
+        }
+        
+        /****************Chat Bot Image on the Chat Log****************/
+        .alkis-bot-img{
+                top: 5px;
+                left: 64.5px;
+                position: absolute;
+                margin-bottom: 100px;
+        }
+        .alkis-bot-img>img{
+                width: 200px;
+                height: 200px;
+                border-radius: 105px;
+        }
+        
+        /*************Chat Result or Log*****************/
+        .result{
+                color: goldenrod;
+        }
+        
+        .text-result{
+                width: 97%;
+                left: 20px;
+                height: 56%;
+                bottom: 50px;
+                user-select: none;
+                position: absolute;
+                overflow-y: scroll;
+                overflow-x: hidden;
+        }
+        
+        /****************Alkis Chat Bot Bubble****************/
+        .alkis-bot-chat{
+                right: 0;
+                width: 96%;
+                height: 30%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: teal;
+        }
+        
+        .alkis-bot-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-bot-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-bot-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-bot-chat>.alkis-bot-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+        
+        /****************Alkis Chat User Bubble****************/
+        .alkis-user-chat{
+                right: 0;
+                width: 96%;
+                height: 25%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: #fff;
+        }
+        
+        .alkis-user-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-user-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-user-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-user-chat>.alkis-user-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+}
+
+@media (min-width: 360px) {
+
+        .sidebar-tab-pc{
+                display: none;
+        }
+
+        .alkis-bot{
+                top: 25px;
+                width: 95%;
+                height: 89%;
+                left: 0.35em;
+                display: block;
+                position: absolute;
+                border-radius: 25px;
+                background: rgb(23, 36, 88);
+                box-shadow: 0px 5px 40px 20px black;
+        }
+        /*********Scroll Bar Design***********/
+        .text-result::-webkit-scrollbar{
+                width: 15px;
+                cursor: e-resize;
+                transition: .5s ease;
+        }
+        .text-result::-webkit-scrollbar-track{
+                transition: .5s ease;
+                border-radius: 20px;
+                box-shadow: inset 3px 6px 8px rgb(29, 80, 80);
+        }
+        .text-result::-webkit-scrollbar-thumb{
+                border-radius: 20px;
+                scroll-behavior: smooth;
+                outline: 3px solid rgb(245, 185, 150);
+                background-color: rgb(29, 80, 80);
+                transition: .5s ease;
+        }
+        /***********Input Field Div Container***********/
+        .input-group{
+                left: 20px;
+                bottom: 60px;
+                position: fixed;
+        }
+        /*********Input Field *************/
+        .said{
+                outline: none;
+                width: 16.5em;
+                transition: .5s;
+                border-radius: 15px;
+        }
+        
+        .sai:focus{
+                outline: hotpink;
+        }
+        
+        /****************Chat Bot Image on the Chat Log****************/
+        .alkis-bot-img{
+                top: 5px;
+                left: 64.5px;
+                position: absolute;
+                margin-bottom: 100px;
+        }
+        .alkis-bot-img>img{
+                width: 200px;
+                height: 200px;
+                border-radius: 105px;
+        }
+        
+        /*************Chat Result or Log*****************/
+        .result{
+                color: goldenrod;
+        }
+        
+        .text-result{
+                width: 97%;
+                left: 20px;
+                height: 56%;
+                bottom: 50px;
+                user-select: none;
+                position: absolute;
+                overflow-y: scroll;
+                overflow-x: hidden;
+        }
+        
+        /****************Alkis Chat Bot Bubble****************/
+        .alkis-bot-chat{
+                right: 0;
+                width: 96%;
+                height: 30%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: teal;
+        }
+        
+        .alkis-bot-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-bot-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-bot-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-bot-chat>.alkis-bot-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+        
+        /****************Alkis Chat User Bubble****************/
+        .alkis-user-chat{
+                right: 0;
+                width: 96%;
+                height: 25%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: #fff;
+        }
+        
+        .alkis-user-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-user-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-user-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-user-chat>.alkis-user-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+}
+
+
+@media (min-width: 380px) {
+
+        .sidebar-tab-pc{
+                display: none;
+        }
+
+        .alkis-bot{
+                top: 25px;
+                width: 95%;
+                height: 89%;
+                left: 0.35em;
+                display: block;
+                position: absolute;
+                border-radius: 25px;
+                background: rgb(23, 36, 88);
+                box-shadow: 0px 5px 40px 20px black;
+        }
+        /*********Scroll Bar Design***********/
+        .text-result::-webkit-scrollbar{
+                width: 15px;
+                cursor: e-resize;
+                transition: .5s ease;
+        }
+        .text-result::-webkit-scrollbar-track{
+                transition: .5s ease;
+                border-radius: 20px;
+                box-shadow: inset 3px 6px 8px rgb(29, 80, 80);
+        }
+        .text-result::-webkit-scrollbar-thumb{
+                border-radius: 20px;
+                scroll-behavior: smooth;
+                outline: 3px solid rgb(245, 185, 150);
+                background-color: rgb(29, 80, 80);
+                transition: .5s ease;
+        }
+        /***********Input Field Div Container***********/
+        .input-group{
+                left: 25px;
+                bottom: 75px;
+                position: fixed;
+        }
+        /*********Input Field *************/
+        .said{
+                outline: none;
+                width: 16.5em;
+                transition: .5s;
+                border-radius: 15px;
+        }
+        
+        .sai:focus{
+                outline: hotpink;
+        }
+        
+        /****************Chat Bot Image on the Chat Log****************/
+        .alkis-bot-img{
+                top: 5px;
+                left: 80.5px;
+                position: absolute;
+                margin-bottom: 100px;
+        }
+        .alkis-bot-img>img{
+                width: 200px;
+                height: 200px;
+                border-radius: 105px;
+        }
+        
+        /*************Chat Result or Log*****************/
+        .result{
+                color: goldenrod;
+        }
+        
+        .text-result{
+                width: 97%;
+                left: 20px;
+                height: 56%;
+                bottom: 50px;
+                user-select: none;
+                position: absolute;
+                overflow-y: scroll;
+                overflow-x: hidden;
+        }
+        
+        /****************Alkis Chat Bot Bubble****************/
+        .alkis-bot-chat{
+                right: 0;
+                width: 96%;
+                height: 30%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: teal;
+        }
+        
+        .alkis-bot-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-bot-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-bot-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-bot-chat>.alkis-bot-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+        
+        /****************Alkis Chat User Bubble****************/
+        .alkis-user-chat{
+                right: 0;
+                width: 96%;
+                height: 25%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: #fff;
+        }
+        
+        .alkis-user-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-user-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-user-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-user-chat>.alkis-user-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+}
+
+
+@media (min-width: 400px) {
+
+        .sidebar-tab-pc{
+                display: none;
+        }
+
+        .alkis-bot{
+                top: 25px;
+                width: 95%;
+                height: 89%;
+                left: 0.5em;
+                display: block;
+                position: absolute;
+                border-radius: 25px;
+                background: rgb(23, 36, 88);
+                box-shadow: 0px 5px 40px 20px black;
+        }
+        /*********Scroll Bar Design***********/
+        .text-result::-webkit-scrollbar{
+                width: 15px;
+                cursor: pointer;
+                transition: .5s ease;
+        }
+        .text-result::-webkit-scrollbar-track{
+                transition: .5s ease;
+                border-radius: 20px;
+                box-shadow: inset 3px 6px 8px rgb(29, 80, 80);
+        }
+        .text-result::-webkit-scrollbar-thumb{
+                border-radius: 20px;
+                scroll-behavior: smooth;
+                outline: 3px solid rgb(245, 185, 150);
+                background-color: rgb(29, 80, 80);
+                transition: .5s ease;
+        }
+        /***********Input Field Div Container***********/
+        .input-group{
+                bottom: 55px;
+                position: fixed;
+        }
+        /*********Input Field *************/
+        .said{
+                outline: none;
+                width: 22.5em;
+                transition: .5s;
+                border-radius: 15px;
+        }
+        
+        .sai:focus{
+                outline: hotpink;
+        }
+        
+        /****************Chat Bot Image on the Chat Log****************/
+        .alkis-bot-img{
+                top: 5px;
+                left: 120px;
+                position: absolute;
+                margin-bottom: 100px;
+        }
+        .alkis-bot-img>img{
+                width: 200px;
+                height: 200px;
+                border-radius: 105px;
+        }
+        
+        /*************Chat Result or Log*****************/
+        .result{
+                color: goldenrod;
+        }
+        
+        .text-result{
+                width: 97%;
+                left: 20px;
+                height: 56%;
+                bottom: 50px;
+                user-select: none;
+                position: absolute;
+                overflow-y: scroll;
+                overflow-x: hidden;
+        }
+        
+        /****************Alkis Chat Bot Bubble****************/
+        .alkis-bot-chat{
+                right: 0;
+                width: 96%;
+                height: 30%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: teal;
+        }
+        
+        .alkis-bot-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-bot-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-bot-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-bot-chat>.alkis-bot-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+        
+        /****************Alkis Chat User Bubble****************/
+        .alkis-user-chat{
+                right: 0;
+                width: 96%;
+                height: 25%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: #fff;
+        }
+        
+        .alkis-user-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-user-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-user-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-user-chat>.alkis-user-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+}
+
+@media (min-width: 410px) {
+
+        .sidebar-tab-pc{
+                display: none;
+        }
+
+        .alkis-bot{
+                top: 25px;
+                width: 95%;
+                height: 89%;
+                left: 0.5em;
+                display: block;
+                position: absolute;
+                border-radius: 25px;
+                background: rgb(23, 36, 88);
+                box-shadow: 0px 5px 40px 20px black;
+        }
+        /*********Scroll Bar Design***********/
+        .text-result::-webkit-scrollbar{
+                width: 15px;
+                cursor: pointer;
+                transition: .5s ease;
+        }
+        .text-result::-webkit-scrollbar-track{
+                transition: .5s ease;
+                border-radius: 20px;
+                box-shadow: inset 3px 6px 8px rgb(29, 80, 80);
+        }
+        .text-result::-webkit-scrollbar-thumb{
+                border-radius: 20px;
+                scroll-behavior: smooth;
+                outline: 3px solid rgb(245, 185, 150);
+                background-color: rgb(29, 80, 80);
+                transition: .5s ease;
+        }
+        /***********Input Field Div Container***********/
+        .input-group{
+                bottom: 75px;
+                position: fixed;
+        }
+        /*********Input Field *************/
+        .said{
+                outline: none;
+                width: 19.5em;
+                transition: .5s;
+                border-radius: 15px;
+        }
+        
+        .sai:focus{
+                outline: hotpink;
+        }
+        
+        /****************Chat Bot Image on the Chat Log****************/
+        .alkis-bot-img{
+                top: 5px;
+                left: 99px;
+                position: absolute;
+                margin-bottom: 10px;
+        }
+        .alkis-bot-img>img{
+                width: 200px;
+                height: 200px;
+                border-radius: 105px;
+        }
+        
+        /*************Chat Result or Log*****************/
+        .result{
+                color: goldenrod;
+        }
+        
+        .text-result{
+                width: 97%;
+                left: 20px;
+                height: 56%;
+                bottom: 50px;
+                user-select: none;
+                position: absolute;
+                overflow-y: scroll;
+                overflow-x: hidden;
+        }
+        
+        /****************Alkis Chat Bot Bubble****************/
+        .alkis-bot-chat{
+                right: 0;
+                width: 96%;
+                height: 30%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: teal;
+        }
+        
+        .alkis-bot-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-bot-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-bot-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-bot-chat>.alkis-bot-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+        
+        /****************Alkis Chat User Bubble****************/
+        .alkis-user-chat{
+                right: 0;
+                width: 96%;
+                height: 25%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: #fff;
+        }
+        
+        .alkis-user-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-user-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-user-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-user-chat>.alkis-user-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+}
+
+@media (min-width: 500px) {
+
+        .sidebar-tab-pc{
+                display: none;
+        }
+
+        .alkis-bot{
+                top: 25px;
+                height: 89%;
+                left: 1.5em;
+                width: 92.5%;
+                display: block;
+                position: absolute;
+                border-radius: 25px;
+                background: rgb(23, 36, 88);
+                box-shadow: 0px 5px 40px 20px black;
+        }
+        /*********Scroll Bar Design***********/
+        .text-result::-webkit-scrollbar{
+                width: 15px;
+                cursor: pointer;
+                transition: .5s ease;
+        }
+        .text-result::-webkit-scrollbar-track{
+                transition: .5s ease;
+                border-radius: 20px;
+                box-shadow: inset 3px 6px 8px rgb(29, 80, 80);
+        }
+        .text-result::-webkit-scrollbar-thumb{
+                border-radius: 20px;
+                scroll-behavior: smooth;
+                outline: 3px solid rgb(245, 185, 150);
+                background-color: rgb(29, 80, 80);
+                transition: .5s ease;
+        }
+        /***********Input Field Div Container***********/
+        .input-group{
+                left: 39px;
+                bottom: 55px;
+                position: fixed;
+        }
+        /*********Input Field *************/
+        .said{
+                outline: none;
+                width: 25.5em;
+                transition: .5s;
+                border-radius: 15px;
+        }
+        
+        .sai:focus{
+                outline: hotpink;
+        }
+        
+        /****************Chat Bot Image on the Chat Log****************/
+        .alkis-bot-img{
+                top: 20px;
+                left: 170px;
+                position: absolute;
+        }
+        .alkis-bot-img>img{
+                width: 200px;
+                height: 200px;
+                border-radius: 105px;
+        }
+        
+        /*************Chat Result or Log*****************/
+        .result{
+                color: goldenrod;
+        }
+        
+        .text-result{
+                width: 97%;
+                left: 20px;
+                height: 53%;
+                bottom: 50px;
+                user-select: none;
+                position: absolute;
+                overflow-y: scroll;
+                overflow-x: hidden;
+        }
+        
+        /****************Alkis Chat Bot Bubble****************/
+        .alkis-bot-chat{
+                right: 0;
+                width: 96%;
+                height: 25%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: teal;
+        }
+        
+        .alkis-bot-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-bot-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-bot-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-bot-chat>.alkis-bot-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+        
+        /****************Alkis Chat User Bubble****************/
+        .alkis-user-chat{
+                right: 0;
+                width: 96%;
+                height: 25%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: #fff;
+        }
+        
+        .alkis-user-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-user-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-user-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-user-chat>.alkis-user-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+}
+
+
+@media (min-width: 600px) {
+
+        .sidebar-tab-pc{
+                display: none;
+        }
+
+        .alkis-bot{
+                top: 25px;
+                height: 89%;
+                left: 1.5em;
+                width: 92.5%;
+                display: block;
+                position: absolute;
+                border-radius: 25px;
+                background: rgb(23, 36, 88);
+                box-shadow: 0px 5px 40px 20px black;
+        }
+        /*********Scroll Bar Design***********/
+        .text-result::-webkit-scrollbar{
+                width: 15px;
+                cursor: pointer;
+                transition: .5s ease;
+        }
+        .text-result::-webkit-scrollbar-track{
+                transition: .5s ease;
+                border-radius: 20px;
+                box-shadow: inset 3px 6px 8px rgb(29, 80, 80);
+        }
+        .text-result::-webkit-scrollbar-thumb{
+                border-radius: 20px;
+                scroll-behavior: smooth;
+                outline: 3px solid rgb(245, 185, 150);
+                background-color: rgb(29, 80, 80);
+                transition: .5s ease;
+        }
+        /***********Input Field Div Container***********/
+        .input-group{
+                left: 39px;
+                bottom: 100px;
+                position: fixed;
+        }
+        /*********Input Field *************/
+        .said{
+                outline: none;
+                width: 30.5em;
+                transition: .5s;
+                border-radius: 15px;
+        }
+        
+        .sai:focus{
+                outline: hotpink;
+        }
+        
+        /****************Chat Bot Image on the Chat Log****************/
+        .alkis-bot-img{
+                top: 20px;
+                left: 200px;
+                position: absolute;
+        }
+        .alkis-bot-img>img{
+                width: 200px;
+                height: 200px;
+                border-radius: 105px;
+        }
+        
+        /*************Chat Result or Log*****************/
+        .result{
+                color: goldenrod;
+        }
+        
+        .text-result{
+                width: 97%;
+                left: 20px;
+                height: 53%;
+                bottom: 50px;
+                user-select: none;
+                position: absolute;
+                overflow-y: scroll;
+                overflow-x: hidden;
+        }
+        
+        /****************Alkis Chat Bot Bubble****************/
+        .alkis-bot-chat{
+                right: 0;
+                width: 96%;
+                height: 25%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: teal;
+        }
+        
+        .alkis-bot-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-bot-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-bot-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-bot-chat>.alkis-bot-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+        
+        /****************Alkis Chat User Bubble****************/
+        .alkis-user-chat{
+                right: 0;
+                width: 96%;
+                height: 25%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: #fff;
+        }
+        
+        .alkis-user-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-user-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-user-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-user-chat>.alkis-user-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+}
+
+@media (min-width: 640px) {
+
+        .sidebar-tab-pc{
+                display: none;
+        }
+
+        .alkis-bot{
+                top: 25px;
+                height: 89%;
+                left: 1.9em;
+                width: 92.5%;
+                display: block;
+                position: absolute;
+                border-radius: 25px;
+                background: rgb(23, 36, 88);
+                box-shadow: 0px 5px 40px 20px black;
+        }
+        /*********Scroll Bar Design***********/
+        .text-result::-webkit-scrollbar{
+                width: 15px;
+                cursor: pointer;
+                transition: .5s ease;
+        }
+        .text-result::-webkit-scrollbar-track{
+                transition: .5s ease;
+                border-radius: 20px;
+                box-shadow: inset 3px 6px 8px rgb(29, 80, 80);
+        }
+        .text-result::-webkit-scrollbar-thumb{
+                border-radius: 20px;
+                scroll-behavior: smooth;
+                outline: 3px solid rgb(245, 185, 150);
+                background-color: rgb(29, 80, 80);
+                transition: .5s ease;
+        }
+        /***********Input Field Div Container***********/
+        .input-group{
+                left: 39px;
+                bottom: 55px;
+                position: fixed;
+        }
+        /*********Input Field *************/
+        .said{
+                outline: none;
+                width: 32.5em;
+                transition: .5s;
+                border-radius: 15px;
+        }
+        
+        .sai:focus{
+                outline: hotpink;
+        }
+        
+        /****************Chat Bot Image on the Chat Log****************/
+        .alkis-bot-img{
+                top: 20px;
+                left: 225px;
+                position: absolute;
+        }
+        .alkis-bot-img>img{
+                width: 200px;
+                height: 200px;
+                border-radius: 105px;
+        }
+        
+        /*************Chat Result or Log*****************/
+        .result{
+                color: goldenrod;
+        }
+        
+        .text-result{
+                width: 97%;
+                left: 20px;
+                height: 53%;
+                bottom: 50px;
+                user-select: none;
+                position: absolute;
+                overflow-y: scroll;
+                overflow-x: hidden;
+        }
+        
+        /****************Alkis Chat Bot Bubble****************/
+        .alkis-bot-chat{
+                right: 0;
+                width: 96%;
+                height: 25%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: teal;
+        }
+        
+        .alkis-bot-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-bot-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-bot-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-bot-chat>.alkis-bot-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+        
+        /****************Alkis Chat User Bubble****************/
+        .alkis-user-chat{
+                right: 0;
+                width: 96%;
+                height: 25%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: #fff;
+        }
+        
+        .alkis-user-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-user-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-user-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-user-chat>.alkis-user-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+}
+
+
+@media (min-width: 690px) {
+
+        .sidebar-tab-pc{
+                display: none;
+        }
+
+        .alkis-bot{
+                top: 25px;
+                height: 89%;
+                left: 1.9em;
+                width: 92.5%;
+                display: block;
+                position: absolute;
+                border-radius: 25px;
+                background: rgb(23, 36, 88);
+                box-shadow: 0px 5px 40px 20px black;
+        }
+        /*********Scroll Bar Design***********/
+        .text-result::-webkit-scrollbar{
+                width: 15px;
+                cursor: pointer;
+                transition: .5s ease;
+        }
+        .text-result::-webkit-scrollbar-track{
+                transition: .5s ease;
+                border-radius: 20px;
+                box-shadow: inset 3px 6px 8px rgb(29, 80, 80);
+        }
+        .text-result::-webkit-scrollbar-thumb{
+                border-radius: 20px;
+                scroll-behavior: smooth;
+                outline: 3px solid rgb(245, 185, 150);
+                background-color: rgb(29, 80, 80);
+                transition: .5s ease;
+        }
+        /***********Input Field Div Container***********/
+        .input-group{
+                left: 39px;
+                bottom: 55px;
+                position: fixed;
+        }
+        /*********Input Field *************/
+        .said{
+                outline: none;
+                width: 35.5em;
+                transition: .5s;
+                border-radius: 15px;
+        }
+        
+        .sai:focus{
+                outline: hotpink;
+        }
+        
+        /****************Chat Bot Image on the Chat Log****************/
+        .alkis-bot-img{
+                top: 20px;
+                left: 225px;
+                position: absolute;
+        }
+        .alkis-bot-img>img{
+                width: 200px;
+                height: 200px;
+                border-radius: 105px;
+        }
+        
+        /*************Chat Result or Log*****************/
+        .result{
+                color: goldenrod;
+        }
+        
+        .text-result{
+                width: 97%;
+                left: 20px;
+                height: 53%;
+                bottom: 50px;
+                user-select: none;
+                position: absolute;
+                overflow-y: scroll;
+                overflow-x: hidden;
+        }
+        
+        /****************Alkis Chat Bot Bubble****************/
+        .alkis-bot-chat{
+                right: 0;
+                width: 96%;
+                height: 25%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: teal;
+        }
+        
+        .alkis-bot-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-bot-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-bot-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-bot-chat>.alkis-bot-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+        
+        /****************Alkis Chat User Bubble****************/
+        .alkis-user-chat{
+                right: 0;
+                width: 96%;
+                height: 25%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: #fff;
+        }
+        
+        .alkis-user-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-user-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-user-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-user-chat>.alkis-user-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+}
+
+@media (min-width: 700px) {
+
+        .sidebar-tab-pc{
+                display: none;
+        }
+
+        .alkis-bot{
+                top: 29px;
+                width: 90%;
+                height: 89%;
+                left: 2.5em;
+                display: block;
+                position: absolute;
+                border-radius: 25px;
+                background: rgb(23, 36, 88);
+                box-shadow: 0px 5px 40px 20px black;
+        }
+        /*********Scroll Bar Design***********/
+        .text-result::-webkit-scrollbar{
+                width: 15px;
+                cursor: pointer;
+                transition: .5s ease;
+        }
+        .text-result::-webkit-scrollbar-track{
+                transition: .5s ease;
+                border-radius: 20px;
+                box-shadow: inset 3px 6px 8px rgb(29, 80, 80);
+        }
+        .text-result::-webkit-scrollbar-thumb{
+                border-radius: 20px;
+                scroll-behavior: smooth;
+                outline: 3px solid rgb(245, 185, 150);
+                background-color: rgb(29, 80, 80);
+                transition: .5s ease;
+        }
+        /***********Input Field Div Container***********/
+        .input-group{
+                bottom: 55px;
+                position: fixed;
+        }
+        /*********Input Field *************/
+        .said{
+                outline: none;
+                width: 36.5em;
+                transition: .5s;
+                border-radius: 15px;
+        }
+        
+        .sai:focus{
+                outline: hotpink;
+        }
+        
+        /****************Chat Bot Image on the Chat Log****************/
+        .alkis-bot-img{
+                top: 20px;
+                left: 235px;
+                position: absolute;
+        }
+        .alkis-bot-img>img{
+                width: 200px;
+                height: 200px;
+                border-radius: 105px;
+        }
+        
+        /*************Chat Result or Log*****************/
+        .result{
+                color: goldenrod;
+        }
+        
+        .text-result{
+                width: 97%;
+                left: 20px;
+                height: 53%;
+                bottom: 50px;
+                user-select: none;
+                position: absolute;
+                overflow-y: scroll;
+                overflow-x: hidden;
+        }
+        
+        /****************Alkis Chat Bot Bubble****************/
+        .alkis-bot-chat{
+                right: 0;
+                width: 96%;
+                height: 25%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: teal;
+        }
+        
+        .alkis-bot-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-bot-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-bot-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-bot-chat>.alkis-bot-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+        
+        /****************Alkis Chat User Bubble****************/
+        .alkis-user-chat{
+                right: 0;
+                width: 96%;
+                height: 25%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: #fff;
+        }
+        
+        .alkis-user-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-user-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-user-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-user-chat>.alkis-user-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+}
+
+@media (min-width: 710px) {
+
+        .sidebar-tab-pc{
+                display: none;
+        }
+
+        .alkis-bot{
+                top: 29px;
+                width: 90%;
+                height: 89%;
+                left: 2.5em;
+                display: block;
+                position: absolute;
+                border-radius: 25px;
+                background: rgb(23, 36, 88);
+                box-shadow: 0px 5px 40px 20px black;
+        }
+        /*********Scroll Bar Design***********/
+        .text-result::-webkit-scrollbar{
+                width: 15px;
+                cursor: pointer;
+                transition: .5s ease;
+        }
+        .text-result::-webkit-scrollbar-track{
+                transition: .5s ease;
+                border-radius: 20px;
+                box-shadow: inset 3px 6px 8px rgb(29, 80, 80);
+        }
+        .text-result::-webkit-scrollbar-thumb{
+                border-radius: 20px;
+                scroll-behavior: smooth;
+                outline: 3px solid rgb(245, 185, 150);
+                background-color: rgb(29, 80, 80);
+                transition: .5s ease;
+        }
+        /***********Input Field Div Container***********/
+        .input-group{
+                left: 55px;
+                bottom: 120px;
+                position: fixed;
+        }
+        /*********Input Field *************/
+        .said{
+                outline: none;
+                width: 34.5em;
+                transition: .5s;
+                border-radius: 15px;
+        }
+        
+        .sai:focus{
+                outline: hotpink;
+        }
+        
+        /****************Chat Bot Image on the Chat Log****************/
+        .alkis-bot-img{
+                top: 20px;
+                left: 235px;
+                position: absolute;
+        }
+        .alkis-bot-img>img{
+                width: 200px;
+                height: 200px;
+                border-radius: 105px;
+        }
+        
+        /*************Chat Result or Log*****************/
+        .result{
+                color: goldenrod;
+        }
+        
+        .text-result{
+                width: 97%;
+                left: 20px;
+                height: 53%;
+                bottom: 50px;
+                user-select: none;
+                position: absolute;
+                overflow-y: scroll;
+                overflow-x: hidden;
+        }
+        
+        /****************Alkis Chat Bot Bubble****************/
+        .alkis-bot-chat{
+                right: 0;
+                width: 96%;
+                height: 25%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: teal;
+        }
+        
+        .alkis-bot-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-bot-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-bot-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-bot-chat>.alkis-bot-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+        
+        /****************Alkis Chat User Bubble****************/
+        .alkis-user-chat{
+                right: 0;
+                width: 96%;
+                height: 25%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: #fff;
+        }
+        
+        .alkis-user-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-user-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-user-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-user-chat>.alkis-user-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+}
+
+@media (min-width: 800px) {
+
+        .sidebar-tab-pc{
+                display: none;
+        }
+
+        .alkis-bot{
+                top: 29px;
+                width: 90%;
+                height: 89%;
+                left: 2.5em;
+                display: block;
+                position: absolute;
+                border-radius: 25px;
+                background: rgb(23, 36, 88);
+                box-shadow: 0px 5px 40px 20px black;
+        }
+        /*********Scroll Bar Design***********/
+        .text-result::-webkit-scrollbar{
+                width: 15px;
+                cursor: pointer;
+                transition: .5s ease;
+        }
+        .text-result::-webkit-scrollbar-track{
+                transition: .5s ease;
+                border-radius: 20px;
+                box-shadow: inset 3px 6px 8px rgb(29, 80, 80);
+        }
+        .text-result::-webkit-scrollbar-thumb{
+                border-radius: 20px;
+                scroll-behavior: smooth;
+                outline: 3px solid rgb(245, 185, 150);
+                background-color: rgb(29, 80, 80);
+                transition: .5s ease;
+        }
+        /***********Input Field Div Container***********/
+        .input-group{
+                left: 55px;
+                bottom: 130px;
+                position: fixed;
+        }
+        /*********Input Field *************/
+        .said{
+                outline: none;
+                width: 39.5em;
+                transition: .5s;
+                border-radius: 15px;
+        }
+        
+        .sai:focus{
+                outline: hotpink;
+        }
+        
+        /****************Chat Bot Image on the Chat Log****************/
+        .alkis-bot-img{
+                top: 20px;
+                left: 260px;
+                position: absolute;
+        }
+        .alkis-bot-img>img{
+                width: 200px;
+                height: 200px;
+                border-radius: 105px;
+        }
+        
+        /*************Chat Result or Log*****************/
+        .result{
+                color: goldenrod;
+        }
+        
+        .text-result{
+                width: 97%;
+                left: 20px;
+                height: 53%;
+                bottom: 50px;
+                user-select: none;
+                position: absolute;
+                overflow-y: scroll;
+                overflow-x: hidden;
+        }
+        
+        /****************Alkis Chat Bot Bubble****************/
+        .alkis-bot-chat{
+                right: 0;
+                width: 96%;
+                height: 25%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: teal;
+        }
+        
+        .alkis-bot-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-bot-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-bot-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-bot-chat>.alkis-bot-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+        
+        /****************Alkis Chat User Bubble****************/
+        .alkis-user-chat{
+                right: 0;
+                width: 96%;
+                height: 25%;
+                float: left;
+                display: flex;
+                margin-left: 5px;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-bottom: 25px;
+                transition: .3s ease;
+                vertical-align: baseline;
+                background-color: #fff;
+        }
+        
+        .alkis-user-chat-reply{
+                margin-left: 12px;
+                width: 70%;
+        }
+        .alkis-user-chat-reply>h6{
+                margin-top: 6px;
+                margin-bottom: 0;
+        }
+        .alkis-user-chat-reply>p{
+                margin: 0;
+        }
+        
+        .alkis-user-chat>.alkis-user-chat-img>img{
+                width: 50px;
+                height: 50px;
+                border-radius: 40px;
+        }
+}
